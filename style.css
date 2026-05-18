@@ -32,6 +32,16 @@ body {
     text-align: center;
 }
 
+.stats-container,#s {
+    display: flexbox;
+    align-items: flex-start;
+}
+
+#s:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
 }
