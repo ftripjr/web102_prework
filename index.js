@@ -112,7 +112,6 @@ function filterUnfundedOnly() {
     });
 
     // use the function we previously created to add the unfunded games to the DOM
-    console.log(`Unfunded:  ${ unfundedGames.length }`);
     addGamesToPage(unfundedGames);
 }
 
@@ -126,7 +125,7 @@ function filterFundedOnly() {
     });
 
     // use the function we previously created to add unfunded games to the DOM
-    console.log(`Funded:  ${ fundedGames.length }`);    addGamesToPage(fundedGames);
+    addGamesToPage(fundedGames);
 }
 
 // show all games
@@ -134,7 +133,6 @@ function showAllGames() {
     deleteChildElements(gamesContainer);
 
     // add all games from the JSON data to the DOM
-    console.log(`Total:  ${ GAMES_JSON.length }`);
     addGamesToPage(GAMES_JSON);
 }
 
