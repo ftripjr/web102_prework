@@ -70,19 +70,31 @@ addGamesToPage(GAMES_JSON);
 const contributionsCard = document.getElementById("num-contributions");
 
 // use reduce() to count the number of total contributions by summing the backers
-
+let totalBackers = GAMES_JSON.reduce( (acc, game) => {
+    return acc + game.backers;
+}, 0);
 
 // set the inner HTML using a template literal and toLocaleString to get a number with commas
-
+const backersText =`<p>${ totalBackers.toLocaleString('en-US') }</p>` ;
+contributionsCard.innerHTML = backersText;
 
 // grab the amount raised card, then use reduce() to find the total amount raised
 const raisedCard = document.getElementById("total-raised");
+let totalRaised = GAMES_JSON.reduce( (acc, game) => {
+    return acc + game.pledged;
+}, 0);
 
 // set inner HTML using template literal
-
+const raisedText =`<p>$${ totalRaised.toLocaleString('en-US') } </p>` ;
+raisedCard.innerHTML = raisedText;
 
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
+let numGames = GAMES_JSON.reduce( (gameCount, game) => {
+    return gameCount + 1;
+}, 0);
+let gameCountText = `<p>${ numGames.toLocaleString('en-US') } </p>` ;
+gamesCard.innerHTML = gameCountText;
 
 
 /*************************************************************************************
