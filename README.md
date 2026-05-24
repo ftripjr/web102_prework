@@ -29,7 +29,7 @@ GIF created with [OBS Studio](https://obsproject.com).
 
 
 ## Notes
-Challenges 0-2 were a great orientation into the project and refresher for web development. 
+Challenges 0-2 were a great orientation into the project and refresher for programming and web development again. Excited to get back to the IDE! 
 
 Challenge 3 was enjoyable because I felt my HTML fundamentals returning after not using them in awhile. I enjoyed looking back through the JavaScript documentation to get familiar with the DOM again and using the template literals to manipulate the contents of the DOM. 
 
@@ -37,7 +37,7 @@ I was never good with arrow functions so I struggled a bit with Challenge 4, but
 
 I got stumped for a bit on challenge 5 due to a funny little error of adding the parentheses to the function name in the `addEventListener` method for my buttons. I was wondering what was wrong with my code for a good minutes before I realized that was the error. Glad I didn't restart my code from the end of Challenge 4!
 
-
+Challenge 6 is feeling like the final stretch of the project. I feel all the things I learned in the previous lessons coming together. I'm using arrow functions to implement more complex statements for data validation! It's feeling really great learning more JavaScript. Getting more excited for the last lesson and the course!
 
 
 ## License
