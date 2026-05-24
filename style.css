@@ -32,14 +32,19 @@ body {
     text-align: center;
 }
 
-.stats-container,#s {
+.stats-container {
     display: flexbox;
     align-items: flex-start;
 }
 
-#s:hover {
+.stats-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px paleturquoise;
+}
+
+#first-game:hover, #second-game:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px gold;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -82,4 +87,9 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#unfunded-btn:hover, #funded-btn:hover, #all-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px yellow;
 }

@@ -2,7 +2,7 @@
 
 Submitted by: Frederic Triplett
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Kraken's Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **5** hours spent in total
 
@@ -10,10 +10,10 @@ Time spent: **5** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding.
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
@@ -23,9 +23,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<video src='kraken crowdfunding demo.mp4' title='Video Walkthrough of Kraken Crowdfunding Website' width='' alt='Video Walkthrough of Kraken Crowdfunding Website. Demo video shows the introduction section explaining the company background, the stats section with required metrics, and the Our Games section with three buttons. The user clicks each button and renders a list of funded games, unfunded games, and finally the entire library of games on Sea Monster Crowdfunding.' />
 
-GIF created with [OBS Studio](https://obsproject.com).
+Video created with [OBS Studio](https://obsproject.com).
 
 
 ## Notes
@@ -39,6 +39,14 @@ I got stumped for a bit on challenge 5 due to a funny little error of adding the
 
 Challenge 6 is feeling like the final stretch of the project. I feel all the things I learned in the previous lessons coming together. I'm using arrow functions to implement more complex statements for data validation! It's feeling really great learning more JavaScript. Getting more excited for the last lesson and the course!
 
+Challenge 7 - I haven't gotten the chance to really get my hands dirty with React yet, so I hope I can learn from this lesson and the unit in the course. 
+
+Destructuring? Something new! Can't wait to use a new concept. It seems similar to declaring multiple variables at once like I've seen Python do. I think I've seen that in C++ before too. I've never seen the spread operator `...` either, but it seems convenient enough. 
+
+It is convenient, but it took some getting used to. At first, I tried to use destructuring to hold the first two games as 2 separate elements of `sortedGames`, but that kept giving an error about expecting a `,`. So I looked back through the lesson to properly use the spread operator and hold `otherGames`. 
+
+Customizations and Feature Ideas  - 
+I added some styling to the stats cards when they hover to show some basic interactivity on the webpage. I tried adding a search bar to find games based on queries, but I was unable to implement it. I'll try tackling it again sometime in the future but for now, I'm glad to have my web dev gears turning again. I would like to add a function the displays modals for each game and all their information on clicking the game cards in the games container. I think that and a navbar bar that sends users to the sections of the home page would be great starter features.
 
 ## License
 

@@ -92,6 +92,7 @@ const gamesCard = document.getElementById("num-games");
 let numGames = GAMES_JSON.reduce( (gameCount, game) => {
     return gameCount + 1;
 }, 0);
+
 let gameCountText = `<p>${ numGames.toLocaleString('en-US') } </p>` ;
 gamesCard.innerHTML = gameCountText;
 
@@ -170,7 +171,7 @@ displayStr = displayStr + unfundedStr;
 // create a new DOM element containing the template string and append it to the description container
 let companyParagraph = document.createElement("p");
 companyParagraph.textContent = displayStr.toLocaleString('en-US');
-descriptionContainer.appendChild(companyDiv);
+descriptionContainer.appendChild(companyParagraph);
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
@@ -185,7 +186,14 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
+let [game1, game2, ...otherGames] = sortedGames;
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+let topPledge = document.createElement("p");
+topPledge.textContent = `${game1.name}`;
+firstGameContainer.appendChild(topPledge);
 
 // do the same for the runner up item
+let runnerUpPledge = document.createElement("p");
+runnerUpPledge.textContent = `${game2.name}`;
+secondGameContainer.appendChild(runnerUpPledge);
