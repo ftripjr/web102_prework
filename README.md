@@ -23,9 +23,11 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<video src='kraken crowdfunding demo.mp4' title='Video Walkthrough of Kraken Crowdfunding Website' width='' alt='Video Walkthrough of Kraken Crowdfunding Website. Demo video shows the introduction section explaining the company background, the stats section with required metrics, and the Our Games section with three buttons. The user clicks each button and renders a list of funded games, unfunded games, and finally the entire library of games on Sea Monster Crowdfunding.' />
+<video src='kraken crowdfunding demo.mp4' title='Video Walkthrough of Kraken Crowdfunding Website' width='' alt='Video Walkthrough of Kraken Crowdfunding Website. Demo video shows the introduction section explaining the company background, the stats section with required metrics, and the Our Games section with three buttons. The user clicks each button and renders a list of funded games, unfunded games, and finally the entire library of games on Sea Monster Crowdfunding.' >
 
 Video created with [OBS Studio](https://obsproject.com).
+
+If the video doesn't render, look for the 'kraken crowdfunding demo.mp4' file in the repository.
 
 
 ## Notes
